@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fake Product Identification</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Custom CSS Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('./assets/wepik-export-20230912131323vB9l.png'); /* Add your background image URL here */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #fff; /* Text color for better visibility on the background */
+        }
+
+        /* Add animation to the header */
+        .navbar-brand-h {
+            font-size: 42 px;
+            font-weight: 700;
+            color: #1c1212;
+            text-decoration: none;
+            animation: fadeInUp 1s ease;
+        }
+		.navbar-brand {
+            font-size: 24px;
+            font-weight: 700;
+            color: #fff;
+            text-decoration: none;
+            animation: fadeInUp 1s ease;
+        }
+
+        .navbar-brand span {
+            font-weight: 300;
+        }
+
+        .ftco-section {
+            padding: 50px 0;
+        }
+
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #fff; /* Toggle button color */
+        }
+
+        .navbar-dark .navbar-toggler:focus, .navbar-dark .navbar-toggler:hover {
+            background-color: #fff; /* Toggle button hover color */
+        }
+
+        .navbar-dark .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-weight: 500;
+            animation: fadeInRight 1s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #007bff;
+        }
+
+        /* Additional Styles */
+        .welcome-section {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 50px 0;
+            text-align: center;
+            animation: fadeIn 1s ease;
+        }
+
+        .welcome-section h2 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .welcome-section h3 {
+            font-size: 24px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        /* Keyframe animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInRight {
+            from {
+                transform: translateX(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+<section class="ftco-section">
+    <div class="container-fluid px-md-5">
+        <div class="row justify-content-between">
+            <div class="col-md-8 order-md-last">
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <a class="navbar-brand-h" href="index.html">Authen-Chain</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="social-media">
+                    <!-- Add your social media icons or links here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="addProduct.html" class="nav-link">Add Product</a></li>
+                    <li class="nav-item "><a href="addSeller.html" class="nav-link">Add Seller</a></li>
+                    <li class="nav-item"><a href="sellProductManufacturer.html" class="nav-link">Sell Product To Seller</a></li>
+                    <li class="nav-item"><a href="querySeller.html" class="nav-link">Query Seller</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END nav -->
+</section>
+
+<section class="welcome-section">
+    <div class="container">
+        <h2>Manufacturer</h2>
+        <h3>Dashboard for Manufactures</h3>
+    </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/web3.min.js"></script>
+<script src="js/truffle-contract.js"></script>
+</body>
+</html>
